@@ -90,6 +90,7 @@ body {
     transition: transform 0.3s ease;
     border-right: 5px solid #0b345d;
     z-index: 500;
+    height: calc(100vh - 70px); /* Ensures the sidebar takes the full height minus the banner height */
 }
 
 #controls.collapsed {
